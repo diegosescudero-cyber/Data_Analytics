@@ -9,7 +9,7 @@
 -- se agregaran en la proxima unidad junto con las relaciones
 -- entre tablas; este script solo define columnas y tipos de dato.
 -- ============================================================
-
+CREATE DATABASE modulo_2_unidad1_diseno
 -- -----------------------------------------------------
 -- Tabla: clientes
 -- -----------------------------------------------------
@@ -37,7 +37,8 @@ CREATE TABLE clientes (
     fecha_registro DATE
 );
 
-SELECT* FROM clientes
+--SELECT* FROM clientes (Comprobar la existencia de la tabla)
+--DROP TABLE clientes (Elimina tabla creada) 
 -- -----------------------------------------------------
 -- Tabla: productos
 -- -----------------------------------------------------
@@ -67,4 +68,6 @@ CREATE TABLE productos (
     esta_activo BIT 
 );
 
-SELECT* FROM productos 
+--SELECT* FROM productos (Comprobar la existencia de la tabla)
+
+-- DROP TABLE productos (Elimina tabla creada) 
